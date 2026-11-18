@@ -1,0 +1,40 @@
+//arithmetic logic unit (ALU)
+
+module ALU(op1,op2,mode,res);
+
+input [31:0] op1, op2;
+input [3:0] mode;
+output reg [31:0] res;
+
+
+always @(*) 
+begin
+	case(mode)
+	4'b0010: //addition
+	begin
+		res = op1 + op2;
+	end
+	
+	4'b0110: //subtraction
+	begin
+		res = op1 - op2;
+	end
+	
+	4'b0000: //AND
+	begin
+	
+	end
+	
+	//implement AND and OR branches
+	
+	
+	default:
+	begin
+		res = 0;
+	end
+	endcase
+
+end
+
+endmodule
+
