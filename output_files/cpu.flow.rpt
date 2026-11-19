@@ -1,0 +1,134 @@
+Flow report for cpu
+Thu Nov 19 12:17:06 2026
+Quartus Prime Version 23.1std.1 Build 993 05/14/2024 SC Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2024  Intel Corporation. All rights reserved.
+Your use of Intel Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Intel Program License 
+Subscription Agreement, the Intel Quartus Prime License Agreement,
+the Intel FPGA IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Intel and sold by Intel or its authorized distributors.  Please
+refer to the applicable agreement for further details, at
+https://fpgasoftware.intel.com/eula.
+
+
+
++-------------------------------------------------------------------------------------+
+; Flow Summary                                                                        ;
++------------------------------------+------------------------------------------------+
+; Flow Status                        ; Successful - Thu Nov 19 12:17:06 2026          ;
+; Quartus Prime Version              ; 23.1std.1 Build 993 05/14/2024 SC Lite Edition ;
+; Revision Name                      ; cpu                                            ;
+; Top-level Entity Name              ; cpu                                            ;
+; Family                             ; Cyclone IV E                                   ;
+; Device                             ; EP4CE40F23A7                                   ;
+; Timing Models                      ; Final                                          ;
+; Total logic elements               ; 1,987 / 39,600 ( 5 % )                         ;
+;     Total combinational functions  ; 1,787 / 39,600 ( 5 % )                         ;
+;     Dedicated logic registers      ; 1,240 / 39,600 ( 3 % )                         ;
+; Total registers                    ; 1240                                           ;
+; Total pins                         ; 138 / 329 ( 42 % )                             ;
+; Total virtual pins                 ; 0                                              ;
+; Total memory bits                  ; 524,486 / 1,161,216 ( 45 % )                   ;
+; Embedded Multiplier 9-bit elements ; 0 / 232 ( 0 % )                                ;
+; Total PLLs                         ; 0 / 4 ( 0 % )                                  ;
++------------------------------------+------------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 11/19/2026 12:14:37 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; cpu                 ;
++-------------------+---------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                        ;
++-------------------------------------+----------------------------------------+---------------+-------------+------------+
+; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id ;
++-------------------------------------+----------------------------------------+---------------+-------------+------------+
+; COMPILER_SIGNATURE_ID               ; 258364228819919.179511207717704        ; --            ; --          ; --         ;
+; MAX_CORE_JUNCTION_TEMP              ; 125                                    ; --            ; --          ; --         ;
+; MIN_CORE_JUNCTION_TEMP              ; -40                                    ; --            ; --          ; --         ;
+; MISC_FILE                           ; constant4_bb.v                         ; --            ; --          ; --         ;
+; MISC_FILE                           ; constant0_2bit_bb.v                    ; --            ; --          ; --         ;
+; MISC_FILE                           ; dmem32KB_bb.v                          ; --            ; --          ; --         ;
+; MISC_FILE                           ; dram8KB_bb.v                           ; --            ; --          ; --         ;
+; MISC_FILE                           ; constant0_32bit_bb.v                   ; --            ; --          ; --         ;
+; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; --          ; Top        ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --            ; --          ; Top        ;
+; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --            ; --          ; Top        ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                           ; --            ; --          ; --         ;
++-------------------------------------+----------------------------------------+---------------+-------------+------------+
+
+
++--------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                        ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis ; 00:00:21     ; 1.0                     ; 4888 MB             ; 00:00:39                           ;
+; Fitter               ; 00:01:32     ; 1.1                     ; 6610 MB             ; 00:01:58                           ;
+; Assembler            ; 00:00:02     ; 1.0                     ; 4805 MB             ; 00:00:02                           ;
+; Timing Analyzer      ; 00:00:07     ; 2.5                     ; 4998 MB             ; 00:00:06                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4661 MB             ; 00:00:01                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4678 MB             ; 00:00:01                           ;
+; Total                ; 00:02:04     ; --                      ; --                  ; 00:02:47                           ;
++----------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                    ;
++----------------------+------------------+------------+------------+----------------+
+; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++----------------------+------------------+------------+------------+----------------+
+; Analysis & Synthesis ; QA               ; Windows 10 ; 10.0       ; x86_64         ;
+; Fitter               ; QA               ; Windows 10 ; 10.0       ; x86_64         ;
+; Assembler            ; QA               ; Windows 10 ; 10.0       ; x86_64         ;
+; Timing Analyzer      ; QA               ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; QA               ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; QA               ; Windows 10 ; 10.0       ; x86_64         ;
++----------------------+------------------+------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off cpu -c cpu
+quartus_fit --read_settings_files=off --write_settings_files=off cpu -c cpu
+quartus_asm --read_settings_files=off --write_settings_files=off cpu -c cpu
+quartus_sta cpu -c cpu
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off cpu -c cpu --vector_source=C:/Classes/CS2033/RISCV_CPU/cpu_sim1.vwf --testbench_file=C:/Classes/CS2033/RISCV_CPU/simulation/qsim/cpu_sim1.vwf.vt
+quartus_eda --write_settings_files=off --simulation=on --functional=on --flatten_buses=off --tool=modelsim_oem --format=verilog --output_directory=C:/Classes/CS2033/RISCV_CPU/simulation/qsim/ cpu -c cpu
+
+
+

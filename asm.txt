@@ -1,0 +1,14 @@
+main: beq zero, zero, start
+nop
+.word 10
+.word 20
+start: lw s0, 8(zero)
+lw s1, 12(zero)
+nop
+nop
+add s2, s0, s1
+nop
+nop
+add s3, s2, s1
+done: beq zero, zero, done
+nop

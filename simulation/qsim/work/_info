@@ -1,0 +1,73 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Classes/CS2033/RISCV_CPU/simulation/qsim
+vcpu
+Z1 !s110 1795112228
+!i10b 1
+!s100 ko26B2;HV4YaZbf<k2dhW2
+I7zA3Og:DjdTN77R`mG8V53
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1795112226
+Z4 8cpu.vo
+Z5 Fcpu.vo
+L0 32
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1795112228.000000
+Z8 !s107 cpu.vo|
+Z9 !s90 -work|work|cpu.vo|
+!i113 1
+Z10 o-work work
+Z11 tCvgOpt 0
+vcpu_vlg_vec_tst
+R1
+!i10b 1
+!s100 A90T[NS59MN1naFaoB<4=3
+IB=I]Qgog5I<[>]hz=zSG?2
+R2
+R0
+w1795112225
+8cpu_sim1.vwf.vt
+Fcpu_sim1.vwf.vt
+L0 30
+R6
+r1
+!s85 0
+31
+R7
+!s107 cpu_sim1.vwf.vt|
+!s90 -work|work|cpu_sim1.vwf.vt|
+!i113 1
+R10
+R11
+vhard_block
+R1
+!i10b 1
+!s100 R82g`dO>HXKd;M]UA3D=m3
+IcSQ<YaFU[97OBgEl2JDi40
+R2
+R0
+R3
+R4
+R5
+L0 67396
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11

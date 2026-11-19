@@ -1,0 +1,49 @@
+module ALU_control(funct7, funct3, ALUop, mode);
+input [6:0] funct7;
+input [2:0] funct3;
+input [1:0] ALUop;
+output reg [3:0] mode;
+
+always @(*) 
+begin
+    if (ALUop == 2'b00) mode = 4'b0010; // lw or sw uses addition 
+    else if(ALUop == 2'b01) mode = 4'b0010; //subtraction
+    else if(ALUop == 2'b10) //R-type
+    begin
+        if(funct7 == 7'b0000000)
+        begin
+            case(funct3)
+            3'b000: //add
+            begin
+                mode = 4'b0010; //addition
+            end
+            3'b110: //or
+            begin
+                mode = 4'b0001; //or
+            end
+            3'b111: //and
+            begin
+					mode = 4'b0000; //and
+				end
+				default:
+				begin
+					mode = 4'b1111; //illegal funct3
+            end
+            endcase
+        end
+        else if(funct7==7'b0100000) //sub mode
+        begin
+            mode = 4'b0110; //subtraction
+        end
+        else mode = 4'b1111; //illegal funct7
+    end
+
+
+end
+
+endmodule
+ 
+ 
+ 
+ 
+ 
