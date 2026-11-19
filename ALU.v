@@ -22,11 +22,13 @@ begin
 	
 	4'b0000: //AND
 	begin
-	
+		res = op1 & op2;
 	end
-	
-	//implement AND and OR branches
-	
+
+	4'b0001: //OR
+	begin
+		res = op1 | op2;
+	end
 	
 	default:
 	begin
