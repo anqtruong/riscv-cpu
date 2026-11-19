@@ -71,24 +71,24 @@ Pin Name/Usage               : Location  : Dir.   : I/O Standard      : Voltage 
 -------------------------------------------------------------------------------------------------------------
 GND                          : A1        : gnd    :                   :         :           :                
 VCCIO8                       : A2        : power  :                   : 2.5V    : 8         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : A3        :        :                   :         : 8         :                
+inst_name[23]                : A3        : output : 2.5 V             :         : 8         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : A4        :        :                   :         : 8         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : A5        :        :                   :         : 8         :                
-result_sim[15]               : A6        : output : 2.5 V             :         : 8         : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : A7        :        :                   :         : 8         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : A8        :        :                   :         : 8         :                
-inst_name[15]                : A9        : output : 2.5 V             :         : 8         : N              
-result_sim[8]                : A10       : output : 2.5 V             :         : 8         : N              
+result_sim[9]                : A6        : output : 2.5 V             :         : 8         : N              
+result_sim[12]               : A7        : output : 2.5 V             :         : 8         : N              
+result_sim[20]               : A8        : output : 2.5 V             :         : 8         : N              
+result_sim[16]               : A9        : output : 2.5 V             :         : 8         : N              
+result_sim[4]                : A10       : output : 2.5 V             :         : 8         : N              
 GND+                         : A11       :        :                   :         : 8         :                
 GND+                         : A12       :        :                   :         : 7         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : A13       :        :                   :         : 7         :                
+result_sim[22]               : A13       : output : 2.5 V             :         : 7         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : A14       :        :                   :         : 7         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : A15       :        :                   :         : 7         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : A16       :        :                   :         : 7         :                
-result_sim[1]                : A17       : output : 2.5 V             :         : 7         : N              
-inst_sim[7]                  : A18       : output : 2.5 V             :         : 7         : N              
-result_sim[13]               : A19       : output : 2.5 V             :         : 7         : N              
-pc_sim[14]                   : A20       : output : 2.5 V             :         : 7         : N              
+result_sim[31]               : A15       : output : 2.5 V             :         : 7         : N              
+inst_sim[29]                 : A16       : output : 2.5 V             :         : 7         : N              
+inst_sim[27]                 : A17       : output : 2.5 V             :         : 7         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : A18       :        :                   :         : 7         :                
+pc_sim[3]                    : A19       : output : 2.5 V             :         : 7         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : A20       :        :                   :         : 7         :                
 VCCIO7                       : A21       : power  :                   : 2.5V    : 7         :                
 GND                          : A22       : gnd    :                   :         :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AA1       :        :                   :         : 2         :                
@@ -98,20 +98,20 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : AA4       :        :                   :      
 RESERVED_INPUT_WITH_WEAK_PULLUP : AA5       :        :                   :         : 3         :                
 VCCIO3                       : AA6       : power  :                   : 2.5V    : 3         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AA7       :        :                   :         : 3         :                
-result_sim[9]                : AA8       : output : 2.5 V             :         : 3         : N              
-result_sim[2]                : AA9       : output : 2.5 V             :         : 3         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AA8       :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AA9       :        :                   :         : 3         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AA10      :        :                   :         : 3         :                
 GND+                         : AA11      :        :                   :         : 3         :                
 GND+                         : AA12      :        :                   :         : 4         :                
-result_sim[27]               : AA13      : output : 2.5 V             :         : 4         : N              
-inst_sim[9]                  : AA14      : output : 2.5 V             :         : 4         : N              
+inst_sim[9]                  : AA13      : output : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AA14      :        :                   :         : 4         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AA15      :        :                   :         : 4         :                
-result_sim[26]               : AA16      : output : 2.5 V             :         : 4         : N              
-pc_sim[2]                    : AA17      : output : 2.5 V             :         : 4         : N              
-pc_sim[31]                   : AA18      : output : 2.5 V             :         : 4         : N              
-inst_name[33]                : AA19      : output : 2.5 V             :         : 4         : N              
-inst_name[5]                 : AA20      : output : 2.5 V             :         : 4         : N              
-inst_name[34]                : AA21      : output : 2.5 V             :         : 5         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AA16      :        :                   :         : 4         :                
+pc_sim[27]                   : AA17      : output : 2.5 V             :         : 4         : N              
+pc_sim[11]                   : AA18      : output : 2.5 V             :         : 4         : N              
+pc_sim[18]                   : AA19      : output : 2.5 V             :         : 4         : N              
+inst_name[20]                : AA20      : output : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AA21      :        :                   :         : 5         :                
 GND                          : AA22      : gnd    :                   :         :           :                
 GND                          : AB1       : gnd    :                   :         :           :                
 VCCIO3                       : AB2       : power  :                   : 2.5V    : 3         :                
@@ -121,18 +121,18 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : AB5       :        :                   :      
 GND                          : AB6       : gnd    :                   :         :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AB7       :        :                   :         : 3         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AB8       :        :                   :         : 3         :                
-result_sim[29]               : AB9       : output : 2.5 V             :         : 3         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AB9       :        :                   :         : 3         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AB10      :        :                   :         : 3         :                
 GND+                         : AB11      :        :                   :         : 3         :                
 GND+                         : AB12      :        :                   :         : 4         :                
-result_sim[30]               : AB13      : output : 2.5 V             :         : 4         : N              
-inst_sim[11]                 : AB14      : output : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AB13      :        :                   :         : 4         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : AB14      :        :                   :         : 4         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AB15      :        :                   :         : 4         :                
-inst_name[29]                : AB16      : output : 2.5 V             :         : 4         : N              
-pc_sim[5]                    : AB17      : output : 2.5 V             :         : 4         : N              
-pc_sim[8]                    : AB18      : output : 2.5 V             :         : 4         : N              
-pc_sim[16]                   : AB19      : output : 2.5 V             :         : 4         : N              
-inst_name[9]                 : AB20      : output : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AB16      :        :                   :         : 4         :                
+inst_sim[5]                  : AB17      : output : 2.5 V             :         : 4         : N              
+pc_sim[10]                   : AB18      : output : 2.5 V             :         : 4         : N              
+inst_sim[17]                 : AB19      : output : 2.5 V             :         : 4         : N              
+inst_name[26]                : AB20      : output : 2.5 V             :         : 4         : N              
 VCCIO4                       : AB21      : power  :                   : 2.5V    : 4         :                
 GND                          : AB22      : gnd    :                   :         :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : B1        :        :                   :         : 1         :                
@@ -141,44 +141,44 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : B3        :        :                   :      
 RESERVED_INPUT_WITH_WEAK_PULLUP : B4        :        :                   :         : 8         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : B5        :        :                   :         : 8         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : B6        :        :                   :         : 8         :                
-result_sim[14]               : B7        : output : 2.5 V             :         : 8         : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : B8        :        :                   :         : 8         :                
-result_sim[0]                : B9        : output : 2.5 V             :         : 8         : N              
-result_sim[19]               : B10       : output : 2.5 V             :         : 8         : N              
+result_sim[8]                : B7        : output : 2.5 V             :         : 8         : N              
+result_sim[23]               : B8        : output : 2.5 V             :         : 8         : N              
+result_sim[13]               : B9        : output : 2.5 V             :         : 8         : N              
+result_sim[0]                : B10       : output : 2.5 V             :         : 8         : N              
 GND+                         : B11       :        :                   :         : 8         :                
 GND+                         : B12       :        :                   :         : 7         :                
-result_sim[18]               : B13       : output : 2.5 V             :         : 7         : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : B14       :        :                   :         : 7         :                
-result_sim[11]               : B15       : output : 2.5 V             :         : 7         : N              
-result_sim[23]               : B16       : output : 2.5 V             :         : 7         : N              
+result_sim[17]               : B13       : output : 2.5 V             :         : 7         : N              
+result_sim[19]               : B14       : output : 2.5 V             :         : 7         : N              
+inst_name[3]                 : B15       : output : 2.5 V             :         : 7         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : B16       :        :                   :         : 7         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : B17       :        :                   :         : 7         :                
-result_sim[5]                : B18       : output : 2.5 V             :         : 7         : N              
-inst_sim[18]                 : B19       : output : 2.5 V             :         : 7         : N              
-inst_sim[28]                 : B20       : output : 2.5 V             :         : 7         : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : B21       :        :                   :         : 6         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : B22       :        :                   :         : 6         :                
-inst_name[23]                : C1        : output : 2.5 V             :         : 1         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : B18       :        :                   :         : 7         :                
+pc_sim[30]                   : B19       : output : 2.5 V             :         : 7         : N              
+inst_sim[16]                 : B20       : output : 2.5 V             :         : 7         : N              
+inst_name[29]                : B21       : output : 2.5 V             :         : 6         : N              
+inst_name[30]                : B22       : output : 2.5 V             :         : 6         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : C1        :        :                   :         : 1         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : C2        :        :                   :         : 1         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : C3        :        :                   :         : 8         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : C4        :        :                   :         : 8         :                
 GND                          : C5        : gnd    :                   :         :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : C6        :        :                   :         : 8         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : C7        :        :                   :         : 8         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : C8        :        :                   :         : 8         :                
+result_sim[10]               : C8        : output : 2.5 V             :         : 8         : N              
 GND                          : C9        : gnd    :                   :         :           :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : C10       :        :                   :         : 8         :                
+result_sim[26]               : C10       : output : 2.5 V             :         : 8         : N              
 GND                          : C11       : gnd    :                   :         :           :                
 GND                          : C12       : gnd    :                   :         :           :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : C13       :        :                   :         : 7         :                
+result_sim[14]               : C13       : output : 2.5 V             :         : 7         : N              
 GND                          : C14       : gnd    :                   :         :           :                
-result_sim[10]               : C15       : output : 2.5 V             :         : 7         : N              
+inst_sim[31]                 : C15       : output : 2.5 V             :         : 7         : N              
 GND                          : C16       : gnd    :                   :         :           :                
-result_sim[17]               : C17       : output : 2.5 V             :         : 7         : N              
+pc_sim[17]                   : C17       : output : 2.5 V             :         : 7         : N              
 GND                          : C18       : gnd    :                   :         :           :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : C19       :        :                   :         : 7         :                
+inst_sim[19]                 : C19       : output : 2.5 V             :         : 7         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : C20       :        :                   :         : 6         :                
-inst_sim[8]                  : C21       : output : 2.5 V             :         : 6         : N              
-inst_sim[15]                 : C22       : output : 2.5 V             :         : 6         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : C21       :        :                   :         : 6         :                
+inst_sim[7]                  : C22       : output : 2.5 V             :         : 6         : N              
 ~ALTERA_ASDO_DATA1~ / RESERVED_INPUT_WITH_WEAK_PULLUP : D1        : input  : 2.5 V             :         : 1         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : D2        :        :                   :         : 1         :                
 GND                          : D3        : gnd    :                   :         :           :                
@@ -188,41 +188,41 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : D6        :        :                   :      
 RESERVED_INPUT_WITH_WEAK_PULLUP : D7        :        :                   :         : 8         :                
 GND                          : D8        : gnd    :                   :         :           :                
 VCCIO8                       : D9        : power  :                   : 2.5V    : 8         :                
-result_sim[25]               : D10       : output : 2.5 V             :         : 8         : N              
+result_sim[6]                : D10       : output : 2.5 V             :         : 8         : N              
 VCCIO8                       : D11       : power  :                   : 2.5V    : 8         :                
 VCCIO7                       : D12       : power  :                   : 2.5V    : 7         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : D13       :        :                   :         : 7         :                
+result_sim[18]               : D13       : output : 2.5 V             :         : 7         : N              
 VCCIO7                       : D14       : power  :                   : 2.5V    : 7         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : D15       :        :                   :         : 7         :                
 VCCIO7                       : D16       : power  :                   : 2.5V    : 7         :                
-inst_name[7]                 : D17       : output : 2.5 V             :         : 7         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : D17       :        :                   :         : 7         :                
 VCCIO7                       : D18       : power  :                   : 2.5V    : 7         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : D19       :        :                   :         : 7         :                
+inst_sim[23]                 : D19       : output : 2.5 V             :         : 7         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : D20       :        :                   :         : 6         :                
-pc_sim[30]                   : D21       : output : 2.5 V             :         : 6         : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : D22       :        :                   :         : 6         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : E1        :        :                   :         : 1         :                
+inst_sim[8]                  : D21       : output : 2.5 V             :         : 6         : N              
+pc_sim[9]                    : D22       : output : 2.5 V             :         : 6         : N              
+inst_name[39]                : E1        : output : 2.5 V             :         : 1         : N              
 ~ALTERA_FLASH_nCE_nCSO~ / RESERVED_INPUT_WITH_WEAK_PULLUP : E2        : input  : 2.5 V             :         : 1         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : E3        :        :                   :         : 1         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : E4        :        :                   :         : 1         :                
-inst_name[3]                 : E5        : output : 2.5 V             :         : 8         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : E5        :        :                   :         : 8         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : E6        :        :                   :         : 8         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : E7        :        :                   :         : 8         :                
 VCCIO8                       : E8        : power  :                   : 2.5V    : 8         :                
-result_sim[22]               : E9        : output : 2.5 V             :         : 8         : N              
-result_sim[6]                : E10       : output : 2.5 V             :         : 8         : N              
-result_sim[7]                : E11       : output : 2.5 V             :         : 7         : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : E12       :        :                   :         : 7         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : E13       :        :                   :         : 7         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : E14       :        :                   :         : 7         :                
-result_sim[24]               : E15       : output : 2.5 V             :         : 7         : N              
+result_sim[25]               : E9        : output : 2.5 V             :         : 8         : N              
+result_sim[15]               : E10       : output : 2.5 V             :         : 8         : N              
+result_sim[11]               : E11       : output : 2.5 V             :         : 7         : N              
+result_sim[2]                : E12       : output : 2.5 V             :         : 7         : N              
+result_sim[21]               : E13       : output : 2.5 V             :         : 7         : N              
+result_sim[5]                : E14       : output : 2.5 V             :         : 7         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : E15       :        :                   :         : 7         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : E16       :        :                   :         : 7         :                
 VCCD_PLL2                    : E17       : power  :                   : 1.2V    :           :                
 GNDA2                        : E18       : gnd    :                   :         :           :                
 VCCIO6                       : E19       : power  :                   : 2.5V    : 6         :                
 GND                          : E20       : gnd    :                   :         :           :                
-inst_sim[20]                 : E21       : output : 2.5 V             :         : 6         : N              
-pc_sim[24]                   : E22       : output : 2.5 V             :         : 6         : N              
+pc_sim[12]                   : E21       : output : 2.5 V             :         : 6         : N              
+pc_sim[20]                   : E22       : output : 2.5 V             :         : 6         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : F1        :        :                   :         : 1         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : F2        :        :                   :         : 1         :                
 GND                          : F3        : gnd    :                   :         :           :                
@@ -233,18 +233,18 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : F7        :        :                   :      
 RESERVED_INPUT_WITH_WEAK_PULLUP : F8        :        :                   :         : 8         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : F9        :        :                   :         : 8         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : F10       :        :                   :         : 8         :                
-result_sim[16]               : F11       : output : 2.5 V             :         : 7         : N              
+result_sim[3]                : F11       : output : 2.5 V             :         : 7         : N              
 GND                          : F12       : gnd    :                   :         :           :                
-result_sim[4]                : F13       : output : 2.5 V             :         : 7         : N              
+result_sim[24]               : F13       : output : 2.5 V             :         : 7         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : F14       :        :                   :         : 7         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : F15       :        :                   :         : 7         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : F16       :        :                   :         : 7         :                
+inst_name[37]                : F16       : output : 2.5 V             :         : 7         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : F17       :        :                   :         : 6         :                
 VCCA2                        : F18       : power  :                   : 2.5V    :           :                
-result_sim[28]               : F19       : output : 2.5 V             :         : 6         : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : F20       :        :                   :         : 6         :                
-pc_sim[3]                    : F21       : output : 2.5 V             :         : 6         : N              
-pc_sim[23]                   : F22       : output : 2.5 V             :         : 6         : N              
+pc_sim[7]                    : F19       : output : 2.5 V             :         : 6         : N              
+pc_sim[13]                   : F20       : output : 2.5 V             :         : 6         : N              
+inst_sim[21]                 : F21       : output : 2.5 V             :         : 6         : N              
+inst_sim[18]                 : F22       : output : 2.5 V             :         : 6         : N              
 clk                          : G1        : input  : 2.5 V             :         : 1         : N              
 GND                          : G2        : gnd    :                   :         :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : G3        :        :                   :         : 1         :                
@@ -255,14 +255,14 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : G7        :        :                   :      
 RESERVED_INPUT_WITH_WEAK_PULLUP : G8        :        :                   :         : 8         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : G9        :        :                   :         : 8         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : G10       :        :                   :         : 8         :                
-result_sim[20]               : G11       : output : 2.5 V             :         : 8         : N              
+result_sim[7]                : G11       : output : 2.5 V             :         : 8         : N              
 VCCINT                       : G12       : power  :                   : 1.2V    :           :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : G13       :        :                   :         : 7         :                
+inst_sim[28]                 : G13       : output : 2.5 V             :         : 7         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : G14       :        :                   :         : 7         :                
-inst_name[4]                 : G15       : output : 2.5 V             :         : 7         : N              
-inst_name[2]                 : G16       : output : 2.5 V             :         : 7         : N              
+inst_name[38]                : G15       : output : 2.5 V             :         : 7         : N              
+inst_sim[24]                 : G16       : output : 2.5 V             :         : 7         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : G17       :        :                   :         : 6         :                
-inst_name[13]                : G18       : output : 2.5 V             :         : 6         : N              
+inst_sim[10]                 : G18       : output : 2.5 V             :         : 6         : N              
 VCCIO6                       : G19       : power  :                   : 2.5V    : 6         :                
 GND                          : G20       : gnd    :                   :         :           :                
 GND+                         : G21       :        :                   :         : 6         :                
@@ -282,13 +282,13 @@ GND                          : H12       : gnd    :                   :         
 GND                          : H13       : gnd    :                   :         :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : H14       :        :                   :         : 7         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : H15       :        :                   :         : 7         :                
-result_sim[21]               : H16       : output : 2.5 V             :         : 6         : N              
-inst_name[14]                : H17       : output : 2.5 V             :         : 6         : N              
-inst_sim[23]                 : H18       : output : 2.5 V             :         : 6         : N              
-inst_sim[31]                 : H19       : output : 2.5 V             :         : 6         : N              
-inst_sim[25]                 : H20       : output : 2.5 V             :         : 6         : N              
-inst_sim[16]                 : H21       : output : 2.5 V             :         : 6         : N              
-pc_sim[0]                    : H22       : output : 2.5 V             :         : 6         : N              
+pc_sim[8]                    : H16       : output : 2.5 V             :         : 6         : N              
+inst_sim[30]                 : H17       : output : 2.5 V             :         : 6         : N              
+inst_name[16]                : H18       : output : 2.5 V             :         : 6         : N              
+pc_sim[0]                    : H19       : output : 2.5 V             :         : 6         : N              
+pc_sim[6]                    : H20       : output : 2.5 V             :         : 6         : N              
+pc_sim[5]                    : H21       : output : 2.5 V             :         : 6         : N              
+pc_sim[21]                   : H22       : output : 2.5 V             :         : 6         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : J1        :        :                   :         : 1         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : J2        :        :                   :         : 1         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : J3        :        :                   :         : 1         :                
@@ -305,12 +305,12 @@ VCCINT                       : J13       : power  :                   : 1.2V    
 VCCINT                       : J14       : power  :                   : 1.2V    :           :                
 GND                          : J15       : gnd    :                   :         :           :                
 VCCINT                       : J16       : power  :                   : 1.2V    :           :                
-pc_sim[22]                   : J17       : output : 2.5 V             :         : 6         : N              
-pc_sim[20]                   : J18       : output : 2.5 V             :         : 6         : N              
+result_sim[27]               : J17       : output : 2.5 V             :         : 6         : N              
+pc_sim[25]                   : J18       : output : 2.5 V             :         : 6         : N              
 GND                          : J19       : gnd    :                   :         :           :                
 VCCIO6                       : J20       : power  :                   : 2.5V    : 6         :                
-inst_sim[24]                 : J21       : output : 2.5 V             :         : 6         : N              
-pc_sim[21]                   : J22       : output : 2.5 V             :         : 6         : N              
+pc_sim[22]                   : J21       : output : 2.5 V             :         : 6         : N              
+pc_sim[28]                   : J22       : output : 2.5 V             :         : 6         : N              
 ~ALTERA_DATA0~ / RESERVED_INPUT_WITH_WEAK_PULLUP : K1        : input  : 2.5 V             :         : 1         : N              
 ~ALTERA_DCLK~                : K2        : output : 2.5 V             :         : 1         : N              
 GND                          : K3        : gnd    :                   :         :           :                
@@ -327,11 +327,11 @@ GND                          : K13       : gnd    :                   :         
 VCCINT                       : K14       : power  :                   : 1.2V    :           :                
 VCCINT                       : K15       : power  :                   : 1.2V    :           :                
 GND                          : K16       : gnd    :                   :         :           :                
-inst_sim[21]                 : K17       : output : 2.5 V             :         : 6         : N              
-pc_sim[29]                   : K18       : output : 2.5 V             :         : 6         : N              
-pc_sim[18]                   : K19       : output : 2.5 V             :         : 6         : N              
+pc_sim[16]                   : K17       : output : 2.5 V             :         : 6         : N              
+pc_sim[15]                   : K18       : output : 2.5 V             :         : 6         : N              
+pc_sim[31]                   : K19       : output : 2.5 V             :         : 6         : N              
 MSEL3                        : K20       :        :                   :         : 6         :                
-inst_sim[10]                 : K21       : output : 2.5 V             :         : 6         : N              
+inst_sim[15]                 : K21       : output : 2.5 V             :         : 6         : N              
 ~ALTERA_nCEO~ / RESERVED_OUTPUT_OPEN_DRAIN : K22       : output : 2.5 V             :         : 6         : N              
 TMS                          : L1        : input  :                   :         : 1         :                
 TCK                          : L2        : input  :                   :         : 1         :                
@@ -353,8 +353,8 @@ MSEL2                        : L17       :        :                   :         
 MSEL1                        : L18       :        :                   :         : 6         :                
 VCCIO6                       : L19       : power  :                   : 2.5V    : 6         :                
 GND                          : L20       : gnd    :                   :         :           :                
-inst_sim[19]                 : L21       : output : 2.5 V             :         : 6         : N              
-pc_sim[10]                   : L22       : output : 2.5 V             :         : 6         : N              
+inst_sim[22]                 : L21       : output : 2.5 V             :         : 6         : N              
+pc_sim[14]                   : L22       : output : 2.5 V             :         : 6         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : M1        :        :                   :         : 2         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : M2        :        :                   :         : 2         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : M3        :        :                   :         : 2         :                
@@ -370,13 +370,13 @@ GND                          : M12       : gnd    :                   :         
 GND                          : M13       : gnd    :                   :         :           :                
 VCCINT                       : M14       : power  :                   : 1.2V    :           :                
 VCCINT                       : M15       : power  :                   : 1.2V    :           :                
-pc_sim[19]                   : M16       : output : 2.5 V             :         : 5         : N              
+inst_name[12]                : M16       : output : 2.5 V             :         : 5         : N              
 MSEL0                        : M17       :        :                   :         : 6         :                
 CONF_DONE                    : M18       :        :                   :         : 6         :                
-inst_sim[22]                 : M19       : output : 2.5 V             :         : 5         : N              
-pc_sim[17]                   : M20       : output : 2.5 V             :         : 5         : N              
-pc_sim[7]                    : M21       : output : 2.5 V             :         : 5         : N              
-inst_sim[29]                 : M22       : output : 2.5 V             :         : 5         : N              
+inst_sim[14]                 : M19       : output : 2.5 V             :         : 5         : N              
+inst_name[11]                : M20       : output : 2.5 V             :         : 5         : N              
+inst_sim[3]                  : M21       : output : 2.5 V             :         : 5         : N              
+inst_sim[4]                  : M22       : output : 2.5 V             :         : 5         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : N1        :        :                   :         : 2         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : N2        :        :                   :         : 2         :                
 GND                          : N3        : gnd    :                   :         :           :                
@@ -384,7 +384,7 @@ VCCIO2                       : N4        : power  :                   : 2.5V    
 RESERVED_INPUT_WITH_WEAK_PULLUP : N5        :        :                   :         : 2         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : N6        :        :                   :         : 2         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : N7        :        :                   :         : 2         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : N8        :        :                   :         : 2         :                
+inst_name[7]                 : N8        : output : 2.5 V             :         : 2         : N              
 VCCINT                       : N9        : power  :                   : 1.2V    :           :                
 GND                          : N10       : gnd    :                   :         :           :                
 GND                          : N11       : gnd    :                   :         :           :                
@@ -392,13 +392,13 @@ GND                          : N12       : gnd    :                   :         
 GND                          : N13       : gnd    :                   :         :           :                
 VCCINT                       : N14       : power  :                   : 1.2V    :           :                
 GND                          : N15       : gnd    :                   :         :           :                
-pc_sim[1]                    : N16       : output : 2.5 V             :         : 5         : N              
-pc_sim[28]                   : N17       : output : 2.5 V             :         : 5         : N              
+inst_name[33]                : N16       : output : 2.5 V             :         : 5         : N              
+inst_sim[0]                  : N17       : output : 2.5 V             :         : 5         : N              
 inst_sim[12]                 : N18       : output : 2.5 V             :         : 5         : N              
-inst_sim[14]                 : N19       : output : 2.5 V             :         : 5         : N              
-pc_sim[27]                   : N20       : output : 2.5 V             :         : 5         : N              
-pc_sim[6]                    : N21       : output : 2.5 V             :         : 5         : N              
-inst_name[32]                : N22       : output : 2.5 V             :         : 5         : N              
+inst_name[10]                : N19       : output : 2.5 V             :         : 5         : N              
+inst_name[25]                : N20       : output : 2.5 V             :         : 5         : N              
+inst_sim[2]                  : N21       : output : 2.5 V             :         : 5         : N              
+inst_sim[6]                  : N22       : output : 2.5 V             :         : 5         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : P1        :        :                   :         : 2         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : P2        :        :                   :         : 2         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : P3        :        :                   :         : 2         :                
@@ -413,14 +413,14 @@ VCCINT                       : P11       : power  :                   : 1.2V    
 VCCINT                       : P12       : power  :                   : 1.2V    :           :                
 VCCINT                       : P13       : power  :                   : 1.2V    :           :                
 VCCINT                       : P14       : power  :                   : 1.2V    :           :                
-inst_sim[26]                 : P15       : output : 2.5 V             :         : 5         : N              
-inst_name[20]                : P16       : output : 2.5 V             :         : 5         : N              
-inst_sim[13]                 : P17       : output : 2.5 V             :         : 5         : N              
+inst_name[14]                : P15       : output : 2.5 V             :         : 5         : N              
+inst_name[5]                 : P16       : output : 2.5 V             :         : 5         : N              
+pc_sim[24]                   : P17       : output : 2.5 V             :         : 5         : N              
 VCCIO5                       : P18       : power  :                   : 2.5V    : 5         :                
 GND                          : P19       : gnd    :                   :         :           :                
-inst_name[11]                : P20       : output : 2.5 V             :         : 5         : N              
-inst_sim[2]                  : P21       : output : 2.5 V             :         : 5         : N              
-inst_name[27]                : P22       : output : 2.5 V             :         : 5         : N              
+inst_name[19]                : P20       : output : 2.5 V             :         : 5         : N              
+inst_name[8]                 : P21       : output : 2.5 V             :         : 5         : N              
+inst_name[17]                : P22       : output : 2.5 V             :         : 5         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : R1        :        :                   :         : 2         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : R2        :        :                   :         : 2         :                
 GND                          : R3        : gnd    :                   :         :           :                
@@ -436,13 +436,13 @@ VCCINT                       : R12       : power  :                   : 1.2V    
 GND                          : R13       : gnd    :                   :         :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : R14       :        :                   :         : 4         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : R15       :        :                   :         : 4         :                
-inst_name[0]                 : R16       : output : 2.5 V             :         : 4         : N              
-inst_name[16]                : R17       : output : 2.5 V             :         : 5         : N              
-inst_sim[30]                 : R18       : output : 2.5 V             :         : 5         : N              
-inst_sim[5]                  : R19       : output : 2.5 V             :         : 5         : N              
-inst_sim[1]                  : R20       : output : 2.5 V             :         : 5         : N              
-inst_sim[3]                  : R21       : output : 2.5 V             :         : 5         : N              
-inst_sim[6]                  : R22       : output : 2.5 V             :         : 5         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : R16       :        :                   :         : 4         :                
+inst_name[34]                : R17       : output : 2.5 V             :         : 5         : N              
+inst_name[28]                : R18       : output : 2.5 V             :         : 5         : N              
+pc_sim[29]                   : R19       : output : 2.5 V             :         : 5         : N              
+inst_name[9]                 : R20       : output : 2.5 V             :         : 5         : N              
+inst_sim[1]                  : R21       : output : 2.5 V             :         : 5         : N              
+inst_name[32]                : R22       : output : 2.5 V             :         : 5         : N              
 GND+                         : T1        :        :                   :         : 2         :                
 rst                          : T2        : input  : 2.5 V             :         : 2         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : T3        :        :                   :         : 2         :                
@@ -453,14 +453,14 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : T7        :        :                   :      
 RESERVED_INPUT_WITH_WEAK_PULLUP : T8        :        :                   :         : 3         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : T9        :        :                   :         : 3         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : T10       :        :                   :         : 3         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : T11       :        :                   :         : 3         :                
-inst_name[37]                : T12       : output : 2.5 V             :         : 4         : N              
+inst_name[15]                : T11       : output : 2.5 V             :         : 3         : N              
+inst_sim[11]                 : T12       : output : 2.5 V             :         : 4         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : T13       :        :                   :         : 4         :                
-inst_sim[27]                 : T14       : output : 2.5 V             :         : 4         : N              
-pc_sim[25]                   : T15       : output : 2.5 V             :         : 4         : N              
-inst_name[6]                 : T16       : output : 2.5 V             :         : 4         : N              
-inst_name[22]                : T17       : output : 2.5 V             :         : 5         : N              
-inst_name[21]                : T18       : output : 2.5 V             :         : 5         : N              
+inst_name[36]                : T14       : output : 2.5 V             :         : 4         : N              
+inst_sim[25]                 : T15       : output : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : T16       :        :                   :         : 4         :                
+inst_sim[20]                 : T17       : output : 2.5 V             :         : 5         : N              
+pc_sim[26]                   : T18       : output : 2.5 V             :         : 5         : N              
 VCCIO5                       : T19       : power  :                   : 2.5V    : 5         :                
 GND                          : T20       : gnd    :                   :         :           :                
 GND+                         : T21       :        :                   :         : 5         :                
@@ -474,19 +474,19 @@ VCCD_PLL1                    : U6        : power  :                   : 1.2V    
 RESERVED_INPUT_WITH_WEAK_PULLUP : U7        :        :                   :         : 3         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : U8        :        :                   :         : 3         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : U9        :        :                   :         : 3         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : U10       :        :                   :         : 3         :                
-result_sim[3]                : U11       : output : 2.5 V             :         : 3         : N              
+inst_name[31]                : U10       : output : 2.5 V             :         : 3         : N              
+result_sim[28]               : U11       : output : 2.5 V             :         : 3         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : U12       :        :                   :         : 4         :                
-pc_sim[12]                   : U13       : output : 2.5 V             :         : 4         : N              
-inst_name[30]                : U14       : output : 2.5 V             :         : 4         : N              
-inst_sim[17]                 : U15       : output : 2.5 V             :         : 4         : N              
-inst_name[19]                : U16       : output : 2.5 V             :         : 4         : N              
-inst_name[25]                : U17       : output : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : U13       :        :                   :         : 4         :                
+inst_sim[26]                 : U14       : output : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : U15       :        :                   :         : 4         :                
+inst_name[22]                : U16       : output : 2.5 V             :         : 4         : N              
+pc_sim[4]                    : U17       : output : 2.5 V             :         : 4         : N              
 VCCA4                        : U18       : power  :                   : 2.5V    :           :                
-inst_name[28]                : U19       : output : 2.5 V             :         : 5         : N              
-inst_name[18]                : U20       : output : 2.5 V             :         : 5         : N              
-pc_sim[15]                   : U21       : output : 2.5 V             :         : 5         : N              
-inst_sim[4]                  : U22       : output : 2.5 V             :         : 5         : N              
+inst_name[2]                 : U19       : output : 2.5 V             :         : 5         : N              
+inst_name[13]                : U20       : output : 2.5 V             :         : 5         : N              
+inst_name[27]                : U21       : output : 2.5 V             :         : 5         : N              
+inst_sim[13]                 : U22       : output : 2.5 V             :         : 5         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : V1        :        :                   :         : 2         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : V2        :        :                   :         : 2         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : V3        :        :                   :         : 2         :                
@@ -496,19 +496,19 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : V6        :        :                   :      
 RESERVED_INPUT_WITH_WEAK_PULLUP : V7        :        :                   :         : 3         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : V8        :        :                   :         : 3         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : V9        :        :                   :         : 3         :                
-inst_name[39]                : V10       : output : 2.5 V             :         : 3         : N              
-result_sim[31]               : V11       : output : 2.5 V             :         : 3         : N              
-result_sim[12]               : V12       : output : 2.5 V             :         : 4         : N              
-inst_name[38]                : V13       : output : 2.5 V             :         : 4         : N              
-pc_sim[26]                   : V14       : output : 2.5 V             :         : 4         : N              
-pc_sim[4]                    : V15       : output : 2.5 V             :         : 4         : N              
-inst_name[12]                : V16       : output : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : V10       :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : V11       :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : V12       :        :                   :         : 4         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : V13       :        :                   :         : 4         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : V14       :        :                   :         : 4         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : V15       :        :                   :         : 4         :                
+inst_name[18]                : V16       : output : 2.5 V             :         : 4         : N              
 VCCD_PLL4                    : V17       : power  :                   : 1.2V    :           :                
 GNDA4                        : V18       : gnd    :                   :         :           :                
 VCCIO5                       : V19       : power  :                   : 2.5V    : 5         :                
 GND                          : V20       : gnd    :                   :         :           :                
-inst_name[36]                : V21       : output : 2.5 V             :         : 5         : N              
-inst_sim[0]                  : V22       : output : 2.5 V             :         : 5         : N              
+pc_sim[2]                    : V21       : output : 2.5 V             :         : 5         : N              
+inst_name[35]                : V22       : output : 2.5 V             :         : 5         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : W1        :        :                   :         : 2         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : W2        :        :                   :         : 2         :                
 GND                          : W3        : gnd    :                   :         :           :                
@@ -518,19 +518,19 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : W6        :        :                   :      
 RESERVED_INPUT_WITH_WEAK_PULLUP : W7        :        :                   :         : 3         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : W8        :        :                   :         : 3         :                
 VCCIO3                       : W9        : power  :                   : 2.5V    : 3         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : W10       :        :                   :         : 3         :                
+result_sim[29]               : W10       : output : 2.5 V             :         : 3         : N              
 VCCIO3                       : W11       : power  :                   : 2.5V    : 3         :                
 VCCIO4                       : W12       : power  :                   : 2.5V    : 4         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : W13       :        :                   :         : 4         :                
-pc_sim[11]                   : W14       : output : 2.5 V             :         : 4         : N              
-pc_sim[9]                    : W15       : output : 2.5 V             :         : 4         : N              
+result_sim[1]                : W14       : output : 2.5 V             :         : 4         : N              
+inst_name[1]                 : W15       : output : 2.5 V             :         : 4         : N              
 VCCIO4                       : W16       : power  :                   : 2.5V    : 4         :                
 inst_name[24]                : W17       : output : 2.5 V             :         : 4         : N              
 VCCIO4                       : W18       : power  :                   : 2.5V    : 4         :                
-inst_name[17]                : W19       : output : 2.5 V             :         : 5         : N              
-inst_name[8]                 : W20       : output : 2.5 V             :         : 5         : N              
-inst_name[26]                : W21       : output : 2.5 V             :         : 5         : N              
-pc_sim[13]                   : W22       : output : 2.5 V             :         : 5         : N              
+pc_sim[19]                   : W19       : output : 2.5 V             :         : 5         : N              
+pc_sim[23]                   : W20       : output : 2.5 V             :         : 5         : N              
+inst_name[0]                 : W21       : output : 2.5 V             :         : 5         : N              
+pc_sim[1]                    : W22       : output : 2.5 V             :         : 5         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : Y1        :        :                   :         : 2         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : Y2        :        :                   :         : 2         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : Y3        :        :                   :         : 3         :                
@@ -540,16 +540,16 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : Y6        :        :                   :      
 RESERVED_INPUT_WITH_WEAK_PULLUP : Y7        :        :                   :         : 3         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : Y8        :        :                   :         : 3         :                
 GND                          : Y9        : gnd    :                   :         :           :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : Y10       :        :                   :         : 3         :                
+result_sim[30]               : Y10       : output : 2.5 V             :         : 3         : N              
 GND                          : Y11       : gnd    :                   :         :           :                
 GND                          : Y12       : gnd    :                   :         :           :                
-inst_name[31]                : Y13       : output : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : Y13       :        :                   :         : 4         :                
 VCCIO4                       : Y14       : power  :                   : 2.5V    : 4         :                
 GND                          : Y15       : gnd    :                   :         :           :                
 GND                          : Y16       : gnd    :                   :         :           :                
-inst_name[10]                : Y17       : output : 2.5 V             :         : 4         : N              
+inst_name[21]                : Y17       : output : 2.5 V             :         : 4         : N              
 GND                          : Y18       : gnd    :                   :         :           :                
 VCCIO5                       : Y19       : power  :                   : 2.5V    : 5         :                
 GND                          : Y20       : gnd    :                   :         :           :                
-inst_name[35]                : Y21       : output : 2.5 V             :         : 5         : N              
-inst_name[1]                 : Y22       : output : 2.5 V             :         : 5         : N              
+inst_name[4]                 : Y21       : output : 2.5 V             :         : 5         : N              
+inst_name[6]                 : Y22       : output : 2.5 V             :         : 5         : N              

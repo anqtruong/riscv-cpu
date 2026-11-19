@@ -2832,6 +2832,26 @@ https://fpgasoftware.intel.com/eula.
 	(pt 2832 680)
 	(bus)
 )
+(connector
+	(pt 3264 232)
+	(pt 3264 664)
+	(bus)
+)
+(connector
+	(pt 3264 232)
+	(pt 3088 232)
+	(bus)
+)
+(connector
+	(pt 3096 184)
+	(pt 3088 184)
+	(bus)
+)
+(connector
+	(pt 3088 184)
+	(pt 3088 232)
+	(bus)
+)
 (junction (pt 864 256))
 (junction (pt 1784 576))
 (junction (pt 1872 320))

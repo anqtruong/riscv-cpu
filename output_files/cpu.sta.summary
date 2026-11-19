@@ -3,63 +3,123 @@ Timing Analyzer Summary
 ------------------------------------------------------------
 
 Type  : Slow 1200mV 125C Model Setup 'clk'
-Slack : -12.755
-TNS   : -9037.515
+Slack : -12.679
+TNS   : -9250.944
+
+Type  : Slow 1200mV 125C Model Setup 'ID_EX_reg:inst37|ALUop_out[0]'
+Slack : -3.593
+TNS   : -13.146
 
 Type  : Slow 1200mV 125C Model Hold 'clk'
-Slack : 0.291
+Slack : 0.344
 TNS   : 0.000
 
+Type  : Slow 1200mV 125C Model Hold 'ID_EX_reg:inst37|ALUop_out[0]'
+Slack : 1.821
+TNS   : 0.000
+
+Type  : Slow 1200mV 125C Model Recovery 'ID_EX_reg:inst37|ALUop_out[0]'
+Slack : -2.061
+TNS   : -7.471
+
 Type  : Slow 1200mV 125C Model Recovery 'clk'
-Slack : -1.395
-TNS   : -80.622
+Slack : -1.439
+TNS   : -73.164
+
+Type  : Slow 1200mV 125C Model Removal 'ID_EX_reg:inst37|ALUop_out[0]'
+Slack : 0.951
+TNS   : 0.000
 
 Type  : Slow 1200mV 125C Model Removal 'clk'
-Slack : 1.507
+Slack : 1.490
 TNS   : 0.000
 
 Type  : Slow 1200mV 125C Model Minimum Pulse Width 'clk'
 Slack : -3.000
-TNS   : -2496.248
+TNS   : -2515.842
 
-Type  : Slow 1200mV -40C Model Setup 'clk'
-Slack : -11.065
-TNS   : -7794.259
-
-Type  : Slow 1200mV -40C Model Hold 'clk'
-Slack : 0.315
+Type  : Slow 1200mV 125C Model Minimum Pulse Width 'ID_EX_reg:inst37|ALUop_out[0]'
+Slack : 0.411
 TNS   : 0.000
 
+Type  : Slow 1200mV -40C Model Setup 'clk'
+Slack : -11.208
+TNS   : -7974.692
+
+Type  : Slow 1200mV -40C Model Setup 'ID_EX_reg:inst37|ALUop_out[0]'
+Slack : -3.090
+TNS   : -11.354
+
+Type  : Slow 1200mV -40C Model Hold 'clk'
+Slack : 0.337
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Hold 'ID_EX_reg:inst37|ALUop_out[0]'
+Slack : 1.732
+TNS   : 0.000
+
+Type  : Slow 1200mV -40C Model Recovery 'ID_EX_reg:inst37|ALUop_out[0]'
+Slack : -1.775
+TNS   : -6.422
+
 Type  : Slow 1200mV -40C Model Recovery 'clk'
-Slack : -1.092
-TNS   : -61.452
+Slack : -1.125
+TNS   : -56.320
+
+Type  : Slow 1200mV -40C Model Removal 'ID_EX_reg:inst37|ALUop_out[0]'
+Slack : 0.992
+TNS   : 0.000
 
 Type  : Slow 1200mV -40C Model Removal 'clk'
-Slack : 1.289
+Slack : 1.279
 TNS   : 0.000
 
 Type  : Slow 1200mV -40C Model Minimum Pulse Width 'clk'
 Slack : -3.000
-TNS   : -2210.968
+TNS   : -2225.598
 
-Type  : Fast 1200mV -40C Model Setup 'clk'
-Slack : -5.310
-TNS   : -3438.270
-
-Type  : Fast 1200mV -40C Model Hold 'clk'
-Slack : 0.108
+Type  : Slow 1200mV -40C Model Minimum Pulse Width 'ID_EX_reg:inst37|ALUop_out[0]'
+Slack : 0.466
 TNS   : 0.000
 
+Type  : Fast 1200mV -40C Model Setup 'clk'
+Slack : -5.324
+TNS   : -3548.696
+
+Type  : Fast 1200mV -40C Model Setup 'ID_EX_reg:inst37|ALUop_out[0]'
+Slack : -1.343
+TNS   : -4.754
+
+Type  : Fast 1200mV -40C Model Hold 'clk'
+Slack : 0.136
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Hold 'ID_EX_reg:inst37|ALUop_out[0]'
+Slack : 1.038
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Recovery 'ID_EX_reg:inst37|ALUop_out[0]'
+Slack : -0.670
+TNS   : -2.303
+
 Type  : Fast 1200mV -40C Model Recovery 'clk'
-Slack : -0.131
-TNS   : -3.930
+Slack : -0.150
+TNS   : -5.400
 
 Type  : Fast 1200mV -40C Model Removal 'clk'
-Slack : 0.674
+Slack : 0.670
+TNS   : 0.000
+
+Type  : Fast 1200mV -40C Model Removal 'ID_EX_reg:inst37|ALUop_out[0]'
+Slack : 0.678
 TNS   : 0.000
 
 Type  : Fast 1200mV -40C Model Minimum Pulse Width 'clk'
 Slack : -3.000
-TNS   : -1577.216
+TNS   : -1600.219
+
+Type  : Fast 1200mV -40C Model Minimum Pulse Width 'ID_EX_reg:inst37|ALUop_out[0]'
+Slack : 0.428
+TNS   : 0.000
 
 ------------------------------------------------------------
